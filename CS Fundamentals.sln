@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS Fundamentals", "CS Fundamentals\CS Fundamentals.csproj", "{18EBC242-509D-46C5-9336-3707701AE256}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS Fundamentals", "CS Fundamentals\CS Fundamentals.csproj", "{18EBC242-509D-46C5-9336-3707701AE256}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS Fundamentals Test", "CS Fundamentals Test\CS Fundamentals Test.csproj", "{A2699918-1236-42A7-8269-0824830F0771}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS Fundamentals Test", "CS Fundamentals Test\CS Fundamentals Test.csproj", "{A2699918-1236-42A7-8269-0824830F0771}"
+	ProjectSection(ProjectDependencies) = postProject
+		{18EBC242-509D-46C5-9336-3707701AE256} = {18EBC242-509D-46C5-9336-3707701AE256}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

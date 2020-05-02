@@ -6,8 +6,4 @@
     <RootNamespace>CS_Fundamentals</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Trees\" />
-  </ItemGroup>
-
 </Project>

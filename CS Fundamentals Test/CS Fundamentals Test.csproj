@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="TreeTests\" />
+    <ProjectReference Include="..\CS Fundamentals\CS Fundamentals.csproj" />
   </ItemGroup>
 
 </Project>
